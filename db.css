@@ -1,5 +1,6 @@
 /* Extra Variables */
 .theme-dark {
+    --background-image: url('https://wallpapercave.com/wp/wp6115892.jpg');
     --background-secondary: transparent;
     --background-primary: transparent;
     --background-floating: #1f1f1f;
