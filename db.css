@@ -1,21 +1,20 @@
 /* Extra Variables */
 .theme-dark {
-    --transparencycolor: 0,0,0;		/* default: 0,0,0 */
-    --transparencyalpha: 0.15;		/* default: 0.15 */
-    --messagetransparency: 0.5;		/* default: 0.5 */
-    --guildchanneltransparency: 0.15;	/* default: 0.15 (additional darkness for guild/channel list can be changed in case a bright background makes the list hard to read) */
-    --memberlistransparency: 0;		/* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
-    --accentcolor: 62,130,229; 		/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
-    --background: url("tmb_307172_258332.png"); /* replace the link in url() with your own direct image link to change the background */
-    --backdrop: rgba(0,0,0,0.4);	/* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
-    --backgroundblur: 0px;				/* default: 0px only works when --background is set to an image */
-    --popoutblur: 0px;					/* default: 0px only works when --background is set to an image */
-    --backdropblur: 0px;				/* default: 0px only works when --backdrop is set to an image *
-    /* DO NOT TOUCH ANYTHING BELOW THIS */
-    --version1_0_5:					none;
-    --backgroundsize: 				cover;
-    --popoutsize: 					cover;
-    --backdropsize: 				cover;
+    --background-secondary: transparent;
+    --background-primary: transparent;
+    --background-floating: #1f1f1f;
+    /*////*/
+    --dusk-background-1: #232323;
+    --dusk-background-2: #1e1e1e;
+    --dusk-activate: hsla(0, 0%, 35%, .25);
+    --chat-scrollbar-width: 12px;
+    --scrollbar-thumb: #666;
+    --scrollbar-thumb-hover: #aaa7a7;
+    --settings-blurple: #5f5f5f;
+    --speaking-ring: hsla(0, 0%, 93%, 0.75);
+    --mentioned-before: rgba(95, 95, 95, 1);
+    --mentioned: rgba(95, 95, 95, 0.1);
+    --mentioned-hover: rgba(95, 95, 95, 0.2);
 }
 }
 /* Core */
