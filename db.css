@@ -9,7 +9,7 @@
     --background: url("tmb_307172_258332.png"); /* replace the link in url() with your own direct image link to change the background */
     --backdrop: rgba(0,0,0,0.4);	/* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
     --backgroundblur: 0px;				/* default: 0px only works when --background is set to an image */
-	--popoutblur: 0px;					/* default: 0px only works when --background is set to an image */
+    --popoutblur: 0px;					/* default: 0px only works when --background is set to an image */
     --backdropblur: 0px;				/* default: 0px only works when --backdrop is set to an image *
     /* DO NOT TOUCH ANYTHING BELOW THIS */
     --version1_0_5:					none;
