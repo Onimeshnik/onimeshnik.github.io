@@ -1751,11 +1751,6 @@ padding: 0 !important;
     filter: brightness(150%);
 }
 
-.sidebar-2K8pFh {
-    border-radius: 0 !important;
-    background-color: var(--main-transparency);
-}
-
 .scroller-2FKFPG > .listItem-2P_4kh:first-child > .listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
     opacity: 0;
 }
