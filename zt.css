@@ -5,7 +5,7 @@ html {
 }
 
 .container-2lgZY8 {
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .channels-Ie2l6A {
@@ -299,7 +299,7 @@ html {
     border-color: #f04747;
 }
 
-.base-3dtUhz, .da-base .da-sidebar.da-sidebar {
+.base-3dtUhz {
     border-radius: 0;
 }
 
@@ -1730,6 +1730,10 @@ padding: 0 !important;
     background-color: var(--background-image);
 }
 
+.platform-win .sidebar-2K8pFh {
+    background-color: var(--main-transparency);
+}
+
 .privateChannels-1nO12o {
     background-color: rgba(0,0,0,0);
 }
@@ -1747,8 +1751,17 @@ padding: 0 !important;
     filter: brightness(150%);
 }
 
+.sidebar-2K8pFh {
+    border-radius: 0 !important;
+    background-color: var(--main-transparency);
+}
+
 .scroller-2FKFPG > .listItem-2P_4kh:first-child > .listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
     opacity: 0;
+}
+
+.base-3dtUhz {
+    left: 72px;
 }
 
 .scroller-2TZvBN {
